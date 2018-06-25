@@ -100,7 +100,7 @@ module.exports = {
     }
     if (this._tables) {
       if (this._tables.indexOf('CONTENT') === -1) {
-        console.log('Initializing CONTENT Table...')
+        console.log('\nInitializing CONTENT Table...')
         return this.new(() => {
           console.log('CONTENT Table is created and ready to use.');
           done && done();
@@ -141,7 +141,7 @@ module.exports = {
     if (this._dbready) {
       contentdb.dropTable(function(err, data) {
         if (err) {
-          console.log('Failed to drop USERS table')
+          console.log('Failed to drop ENROLL table')
           console.log(err);
         } else {
           console.log('Dropped old CONTENT table')
