@@ -106,7 +106,8 @@ module.exports = {
           done && done();
         });
       } else {
-        console.log('CONTENT Table already exists')
+        console.log('CONTENT Table already exists');
+        done && done();
         return this;
       }
     } else {
