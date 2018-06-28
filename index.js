@@ -10,7 +10,7 @@ const db = {
 }
 
 const emb01 = {
-  courseId: 'emb01',
+  courseId: 'emb-01',
   detail: { status : 'active' },
   data : [
     {
