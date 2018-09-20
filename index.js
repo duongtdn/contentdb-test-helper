@@ -51,7 +51,7 @@ const emb01 = {
       id: '3', 
       title: 'Name should not too long',
       contents: [
-        {id: 0, player: 'YOUTUBE', src: 'R9ZE97rnBqE', title: 'Nick and Dave Conversation'},
+        {id: 0, player: 'YOUTUBE', src: '3zTVaWH40lY', title: 'History of Westeros: The Wall'},
         {id: 1, player: 'YOUTUBE', src: 'r6bkETisayg', title: 'The last storyline'},
       ]
     }
